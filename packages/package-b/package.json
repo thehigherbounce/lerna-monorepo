@@ -1,0 +1,22 @@
+{
+  "name": "package-b",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "yavis1218 <harry19920709@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/package-b.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/package-b.test.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
